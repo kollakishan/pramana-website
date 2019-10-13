@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('font/BEBAS___-webfont.eot');
+    src: url('font/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/BEBAS___-webfont.woff') format('woff'),
+         url('font/BEBAS___-webfont.ttf') format('truetype'),
+         url('font/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html,body{
+ font-family: 'BebasRegular';
+	width:100%;
+	height:100%;
+       
+}
+
+.navigation{
+	position:fixed;
+	z-index:1;
+	top:20px;
+}
+.navigation li{
+	color:orange;
+	display:block;
+	padding: 0 10px;
+	line-height:30px;
+	margin-bottom:2px;
+	font-weight:bold;
+	-webkit-transition: all .2s ease-in-out;
+	border-bottom:1px solid black;
+	text-align:left;
+	width:58px;
+        font-size:25px;
+}
+.navigation li:hover,.active{
+	font-size:35px;
+	cursor:pointer;
+	width:100px!important;
+}
+.sing{
+	position:absolute;
+	top:5%;
+        right:45%;
+	font-size:30px;
+	font-weight:bold;
+	color:orange
+}
+.plan1
+{
+        position:absolute;
+	top:0.2%;
+	left:70%;
+	font-weight:bold;
+	color:black;
+}
+
+.plan1c
+{
+position:absolute;
+	top:6%;
+	left:60%;
+	color:orange;
+}
+
+.plan2cc
+{
+position:absolute;
+	bottom:6%;
+	left:30%;
+	color:black;
+}
+
+.plan4
+{
+position:absolute;
+	left:38%;
+	top:1%;
+	color:black;
+}
+
+.plan4c
+{
+position:absolute;
+	left:16%;
+	top:10%;
+	color:black;
+}
+
+
+
+
+
+
+.envatologo{
+position:fixed;
+bottom:3%;
+left:85%;
+width:400px;
+margin-top:-41px;
+margin-left:-223px;
+z-index:1;
+}
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+
+
+.slideno{
+	position:absolute;
+	bottom:350px;
+	left:48%;
+	font-size:100px;
+	font-weight:bold;
+	color:rgba(455,455,455,0.3);
+}
+.button{
+	display:block;
+	width:50px;
+	height:50px;
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	background-color:#333333;
+	background-image:url(../images/arrow.png);
+}
+.button:hover{
+	background-color:#494949;
+	cursor:pointer;
+}
+
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1{
+
+        background-image:url(../images/s2.jpg);
+        -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+        background-repeat:no-repeat;
+	
+	
+
+}
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2{
+	background-image:url(../images/ht.jpg);
+      
+background-size:400px;
+background-position:80%;
+background-repeat:no-repeat;
+        
+	
+}
+
+/******************************
+ SLIDE 3 
+*******************************/
+#slide3{
+	background-image:url(../images/dance.jpg);
+        -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+         background-repeat:no-repeat;
+	
+}
+#slide3 img:first-child{
+	position:absolute;
+top: 700px;
+left: 300px;
+}
+#slide3 img:nth-child(2){
+	position:absolute;
+	top:100px;
+	left:100px;
+}
+#slide3 img:nth-child(3){
+	position:absolute;
+	top:150px;
+	left:300px;
+}
+#slide3 img:nth-child(4){
+	position:absolute;
+	top:450px;
+	left:300px;
+}
+#slide3 img:nth-child(5){
+	position:absolute;
+	top:200px;
+	right:300px;
+}
+#slide3 img:nth-child(6){
+	position:absolute;
+	top:100px;
+	right:300px;
+}
+/******************************
+ SLIDE 4 
+*******************************/
+
+#slide4{
+	background-image:url(../images/s4.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+background-repeat:no-repeat;
+	
+}
+#slide4 .parallaxbg{
+	position:absolute;
+	left:600px;
+	bottom:400px;
+	font-size:28px;
+	color:rgba(455,455,455,0.3);
+}
+
