@@ -1,0 +1,9 @@
+function af1()
+{
+document.images[0]="images/Mobile.png"
+}
+
+function af11()
+{
+document.images[0]="images/transp.png"
+}
